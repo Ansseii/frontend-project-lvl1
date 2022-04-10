@@ -1,11 +1,27 @@
 import readlineSync from 'readline-sync';
 
-const askName = () => readlineSync.question('May I have your name?');
+const askName = () => readlineSync.question('May I have your name? ');
 
-const greet = () => {
+export const greetUser = (gameRules) => {
   console.log('Welcome to the Brain Games!');
-  const userName = askName();
-  console.log(`Hello, ${userName}`);
+  const playerName = askName();
+  console.log(`Hello, ${playerName}`);
+  console.log(gameRules);
+
+  return playerName;
 };
 
-export default greet;
+export const showCorrectAnswerMessage = () => console.log('Correct');
+
+export const showIncorrectAnswerMessage = (playerName, guess, correctAnswer) => {
+  console.log(`'${guess}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+  console.log(`Let's try again, ${playerName}!`);
+};
+
+export const showWinnerMessage = (playerName) => console.log(`Congratulations, ${playerName}!`);
+
+export const getAnswer = (question) => {
+  console.log(`Question: ${question}`);
+
+  return readlineSync.question('Your answer: ');
+};
