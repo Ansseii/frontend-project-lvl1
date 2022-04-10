@@ -19,3 +19,9 @@ Evaluate expression
 $ brain-calc
 ```
 [![asciicast](https://asciinema.org/a/I2HSXMflFQMSo95aTjAPOUX1F.svg)](https://asciinema.org/a/I2HSXMflFQMSo95aTjAPOUX1F)
+### GCD
+Evaluate greatest common divisor
+```shell
+$ brain-gcd
+```
+[![asciicast](https://asciinema.org/a/vnXDyr545n7Iu22jVlGG0bPqD.svg)](https://asciinema.org/a/vnXDyr545n7Iu22jVlGG0bPqD)
