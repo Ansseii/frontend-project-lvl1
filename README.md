@@ -5,6 +5,7 @@
 ## Usage
 ```shell
 $ make install
+$ npm link
 ```
 ### Even or not
 Guess whether the number is even or not
@@ -12,3 +13,9 @@ Guess whether the number is even or not
 $ brain-even
 ```
 [![asciicast](https://asciinema.org/a/AIxD8zyrz4xgGm9AplpSJN5H9.svg)](https://asciinema.org/a/AIxD8zyrz4xgGm9AplpSJN5H9)
+### Calculator
+Evaluate expression
+```shell
+$ brain-calc
+```
+[![asciicast](https://asciinema.org/a/I2HSXMflFQMSo95aTjAPOUX1F.svg)](https://asciinema.org/a/I2HSXMflFQMSo95aTjAPOUX1F)
