@@ -25,3 +25,9 @@ Evaluate greatest common divisor
 $ brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/vnXDyr545n7Iu22jVlGG0bPqD.svg)](https://asciinema.org/a/vnXDyr545n7Iu22jVlGG0bPqD)
+### Progression
+Guess a hidden value in the progression
+```shell
+$ brain-progression
+```
+[![asciicast](https://asciinema.org/a/UrZTmES1U3rEa0T8SwfCdPN2B.svg)](https://asciinema.org/a/UrZTmES1U3rEa0T8SwfCdPN2B)
