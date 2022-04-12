@@ -31,3 +31,9 @@ Guess a hidden value in the progression
 $ brain-progression
 ```
 [![asciicast](https://asciinema.org/a/UrZTmES1U3rEa0T8SwfCdPN2B.svg)](https://asciinema.org/a/UrZTmES1U3rEa0T8SwfCdPN2B)
+### Prime
+Guess whether the number is prime or not
+```shell
+$ brain-prime
+```
+[![asciicast](https://asciinema.org/a/DmvNHoPckBvSd4fznxkijyClp.svg)](https://asciinema.org/a/DmvNHoPckBvSd4fznxkijyClp)
